@@ -5,6 +5,7 @@ def generate(numRows):
     for row in range(numRows):
         pt.append([1] * count)
         count += 1
+    print(pt)
     if numRows <= 2:
         return pt
     prev_row = 1
